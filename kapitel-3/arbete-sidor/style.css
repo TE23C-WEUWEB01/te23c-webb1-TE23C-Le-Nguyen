@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+body.sida1 {
+background-image: url(
+./bild/background-5575226_640.jpg
+);
+}
+body.sida2 {
+background-image: url(
+ ./bild/background-5575333_1280.webp
+);
+}
+body.sida3 {
+ background-image: url(
+ ./bild/photo-1642942552676-a02d4f94c727.avif
+);
+}
+body.sida4 {
+background-image: url(
+./bild/seamless-pattern-1089793_640.png
+);
+}
+body.sida5 {
+background-image: url(
+./bild/strawberries-6609545_640.webp
+);
+background-repeat: no-repeat;
+background-size: cover;
+}
+body.sida6 {
+background-image: url(
+./bild/wallpaper-2747242_640.webp
+);
+}
+div {
+background-color: #498ff2;
+width: 400px;
+margin: auto;
+margin-top: 100px;
+border: 5px dashed rgb(16, 103, 143);
+padding: 20px;
+}
+h1 {
+    font-family: "Roboto Slab", system-ui;
+}
+p {
+    font-family: "Fredoka", system-ui;
+    font-size: 20px;
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: blue;
+}
