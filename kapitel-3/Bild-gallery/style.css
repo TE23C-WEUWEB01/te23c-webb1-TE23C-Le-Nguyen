@@ -1,0 +1,42 @@
+/* sidan bakgrind */
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+background-color: #c3c3c3;
+
+}
+
+/* Kontainern utseende */
+.kontainer {
+ width: 800px;
+ padding: 30px;
+ margin: auto;
+ font-family: "Kablammo", system-ui;
+}
+h1{
+    font-family: "Kablammo", system-ui;
+    font-size: 120px;
+    text-align: center;
+}
+h2{
+    font-family: "Kablammo", system-ui;
+    text-align: center;
+}
+/* Boxarnas utseende6 */
+
+.bild {
+background-color: #000;
+color: #fff;
+padding: 50px;
+margin-bottom: 50px ;
+}
+h3 {
+    font-family: "Kablammo", system-ui;
+}
+p {
+    font-family: "Kablammo", system-ui;
+}
+a {
+
+}
