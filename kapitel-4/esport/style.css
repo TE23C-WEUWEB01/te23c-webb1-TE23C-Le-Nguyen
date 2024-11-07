@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Beastly&display=swap');
+
+
+CSS-reset:
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: #8d60c9;
+}
+
+.kontainer {
+    font-family: "Rubik Beastly", system-ui;
+    width: 800px;
+    margin: auto;
+    background-color: #E7DEf4;
+}
+
+h1 {
+    font-family: "Rubik Beastly", system-ui;
+    font-size: 75px;
+}
+h2 {
+    font-family: "Rubik Beastly", system-ui;
+}
+
+img {
+
+}
+.bildtext{
+    font-family: "Rubik Beastly", system-ui;
+    background-color: #5A5A5A;
+}
+.thanks {
+    font-family: "Rubik Beastly", system-ui;
+}
+a {
+    
+}
