@@ -9,3 +9,57 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
  margin: 0;
 padding: 0;
 }
+
+body {
+    background-color: #8d60c9;
+}
+
+.kontainer {
+    font-family: "Rubik Beastly", system-ui;
+    width: 800px;
+    margin: auto;
+    background-color: #E7DEf4;
+    padding: 40px;
+}
+
+.kolummer {
+    display: flex;
+    gap: 50px;
+}
+
+.bild {
+    background-color: #5A5A5A;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-right: 5px solid #fff;
+}
+
+h1 {
+    font-family: "Rubik Beastly", system-ui;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Rubik Beastly", system-ui;
+    margin-bottom: 20px;
+}
+
+.bildtext {
+    font-family: "Rubik Beastly", system-ui;
+    background-color: #5A5A5A;
+}
+
+.thanks {
+    font-family: "Rubik Beastly", system-ui;
+}
+
+a {}
