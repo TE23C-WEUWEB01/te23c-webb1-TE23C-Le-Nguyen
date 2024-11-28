@@ -15,7 +15,7 @@ padding: 0;
 
 
 div{
-    
+   background-color: #9a8054;
 }
 
 ul{
@@ -48,12 +48,12 @@ a:hover{
     padding: 20px;
     margin:auto;
 }
-h1{
+.kontainer h1{
     font-family: "Edu AU VIC WA NT Pre", cursive;
     color: #A44A3F;
     font-size: 80px;
 }
-figure {
+.kontainer figure {
     background-color: #fff;
     padding: 30px;
     width: 60%;
@@ -61,12 +61,12 @@ figure {
     margin-top:20px ;
     margin-bottom:20px ;
 }
-img {
+.kontainer figure img {
     width: 100%;
 }
-p {
+.kontainer p {
     margin-bottom: 20px;
 }
-.tack {
+.kontainer .tack {
     
 }
