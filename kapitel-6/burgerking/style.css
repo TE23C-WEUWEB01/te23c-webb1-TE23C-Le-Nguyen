@@ -21,18 +21,58 @@ padding: 0;
   font-style: normal; */
 
 /* Sidlayouten */
-body {}
-.kontainer {}
+body {
+  background-color: #FBF7F1;
+
+}
+.kontainer {
+  width: 1024px;
+  margin: auto;
+  font-family: "Modak", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #502314;
+}
 /* Sidhuvud */
-.sidhuvud {}
+.sidhuvud {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
 .sidhuvud .meny {}
-.sidhuvud .meny a{}
-.sidhuvud .erbjudanden{}
+.sidhuvud .meny a{
+  text-decoration: none;
+  color: #502314;
+  padding: 10px;
+}
+.sidhuvud .erbjudanden{
+  text-decoration: none;
+  color: #CC2200 ;
+  padding: 10px;
+  border: 2px solid #CC2200;
+  border-radius: 5px;
+}
 
 /* Sidinnerhallet */
-.innerhall {}
-.innerhall h2 {}
-.innerhall .kolumner-3 {}
-.innerhall .kolumner-3 .burgare{}
-.innerhall .kolumner-3 .burgare img{}
-.innerhall .kolumner-3 .burgare p{}
+.innehall {}
+.innehall h2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.innehall .kolumner-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.innehall .kolumner-3 .burgare{
+  background-color: #F5EBDC;
+  text-align: center;
+  border-radius: 10px;
+  height: 15px;
+}
+.innehall .kolumner-3 .burgare img{
+  width: 300px;
+}
+.innehall .kolumner-3 .burgare p{
+  font-size: 25px;
+}
