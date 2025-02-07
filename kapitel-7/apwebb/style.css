@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 /* Enkel CSS-reset */
 html {
 box-sizing: border-box;
@@ -6,38 +7,81 @@ box-sizing: border-box;
 box-sizing: inherit;
 }
 body, h1, h2, h3, h4, h5, h6, p, ul {
- margin: 0;
+margin: 0;
 padding: 0;
 }
-
 img {
     width: 100%;
 }
 
-/* sidan layout */
+/* Sidans layout */
+body{
+    background-image: url(./img/unnamed.jpg);
+}
 .kontainer {
-    width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "innehall sidebar"
-    "sidfot sidfot";
+width: 1000px;
+margin: auto;
+display: grid;
+grid-template-columns: 3fr 1fr;
+grid-template-areas: 
+"sidhuvud sidhuvud"
+"innehåll sidebar"
+"sidfot sidfot";
+gap: 20px;
 }
 header {
     grid-area: sidhuvud;
-    background-color: green;
 }
-main {
-    grid-area: innehall;
-    background-color: lightcoral;
+main{
+    grid-area: innehåll;
+background-color: #fff;
+border-radius: 20px;
+padding: 20px;
 }
-aside {
+aside{
     grid-area: sidebar;
-background-color: yellow;
+background-color: #fff;
+border-radius: 20px;
+padding: 20px;
 }
-footer {
+footer{
     grid-area: sidfot;
-background-color: blue;
+background-color: #fff;
+border-radius: 20px;
+padding: 20px;
 }
+/* Sidhuvudet */
+header h1 {
+    font-family: "Freckle Face", serif;
+    font-size: 80px;
+    color: #fff;
+}
+header h2 {
+    font-family: "Freckle Face", serif;
+    font-size: 30px;
+    color: #fff;
+}
+header nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(128,180,1);
+    background: linear-gradient(0deg, r);
+    padding: 20px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 10px;
+
+
+}
+header nav a:hover {
+
+}
+/* Sidans innehåll */
+
+
+/* Sidofält */
+
+
+/* Sidfoten */
