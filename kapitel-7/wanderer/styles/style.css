@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fugaz+One&family=Kablammo&family=Modak&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fugaz+One&family=Kablammo&family=Modak&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Beastly&display=swap');
 .Wanderer {
     background: #000;
+    color: white;
 }
 .Wanderer .vimeo {
     position: fixed;
@@ -21,4 +24,69 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
+}
+.Wanderer main {
+    display: grid;
+    align-items: center;
+}
+/* sidan */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.container {
+width: 800px;
+margin: 0 auto;
+/* css trick för vertikal centraring mm */
+min-height: 100%;
+display: grid;
+grid-template-rows: auto 1fr auto;
+grid-template-columns: 100%;
+
+}
+
+/* sidhuvud */
+.container header {
+    font-family: "Fugaz One", sans-serif;
+text-align: center;
+}
+.container header h1 {
+    font-size: 80px;
+}
+.container header nav {
+
+}
+.container header nav a {
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 10px;
+}
+.container header nav a:hover {
+    border-bottom: 2px solid #FFF;
+}
+.container header nav a:active {
+    border-bottom: 3px solid #FFF;
+}
+/* innehållet */
+.container main {
+    font-family: "Roboto", sans-serif;
+    padding: 50px;
+}
+.container main figure{
+    padding: 50px;
+}
+.container main blockquote {
+
+}
+
+/* sidfooter */
+
+.container footer {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container footer p {
+
 }
